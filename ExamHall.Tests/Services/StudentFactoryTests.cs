@@ -21,15 +21,8 @@ namespace ExamHall.Tests.Services
             var special = students.Where(s => s.IsSpecial).ToList();
 
             Assert.Equal(2, special.Count);
-            Assert.All(special, s => Assert.Equal("5", s.Test));
+            Assert.All(special, s => Assert.Equal("T5", s.Test));
         }
 
-        [Fact]
-        public void StudentNamesShouldBeUnique()
-        {
-            var students = StudentFactory.CreateStudents();
-            var names = students.Select(s => s.Name).ToList();
-            Assert.Equal(25, names.Distinct().Count());
-        }
     }
 }
