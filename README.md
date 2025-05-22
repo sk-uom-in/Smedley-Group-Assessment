@@ -1,12 +1,9 @@
-Here’s a complete and professional `README.md` tailored for your **Smedley Group Assessment** project:
 
----
-
-## 🏁 Smedley Group Assessment – Exam Hall Seating Algorithm
+## Smedley Group Assessment – Exam Hall Seating Algorithm
 
 This C# console application solves a constrained exam hall seating problem using **backtracking**, with additional rules around **test assignment** and **special students**.
 
-### 📌 Problem Overview
+### Problem Overview
 
 * 25 students (`A01` to `A25`) are to be seated in a 5×5 exam hall grid.
 * Each student is assigned a test (T1–T5).
@@ -16,7 +13,7 @@ This C# console application solves a constrained exam hall seating problem using
 
 ---
 
-### 🧠 Algorithm
+### Algorithm
 
 * Uses **recursive backtracking** to place students in grid positions.
 * Ensures adjacency rules are respected using an `IsValid` method.
@@ -26,7 +23,7 @@ This C# console application solves a constrained exam hall seating problem using
 
 ---
 
-### 🛠️ Technologies
+### Technologies
 
 * **Language:** C# 11 / .NET 8+
 * **Project Structure:**
@@ -36,7 +33,7 @@ This C# console application solves a constrained exam hall seating problem using
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 ```bash
 git clone https://github.com/sk-uom-in/Smedley-Group-Assessment
@@ -47,7 +44,7 @@ dotnet run --project ExamHall
 
 ---
 
-### 🧪 Run Unit Tests
+### Run Unit Tests
 
 ```bash
 dotnet test
@@ -62,10 +59,10 @@ Tests validate:
 
 ---
 
-### 📋 Example Output
+### Example Output
 
 ```
-📋 Seating Layout (Name | Test):
+Seating Layout (Name | Test):
 
 A01|T1     A02|T2     A03|T3     A04|T4     A05|T1     
 A07|T3     A08|T4     A09|T1     A06|T2     A10*|T5     
@@ -78,7 +75,7 @@ A25|T1     A22|T2     A20|T4     A23|T3     A24|T4
 
 ---
 
-### 📂 Project Structure
+### Project Structure
 
 ```
 Smedley-Group-Assessment/
@@ -97,12 +94,11 @@ Smedley-Group-Assessment/
 
 ---
 
-### 👨‍💻 Author
+### Author
 
 **Sambbhav Khare**
 🔗 [LinkedIn](https://www.linkedin.com/in/khare-sambbhav)
 💻 [GitHub](https://github.com/sk-uom-in)
 
----
 
-Let me know if you’d like a badge, `.gif` animation of output, or build status included too.
+
